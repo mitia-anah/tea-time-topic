@@ -7,6 +7,7 @@ export async function generateElement() {
     const ListOfEl = elements.map(element => {
         return `
         <article>
+            <span class="archiveSvg">${archiveSvg}</span>
             <p>${element.title}</p> 
             <span>
                 <li class="upvote">${upvoteSvg}</li>

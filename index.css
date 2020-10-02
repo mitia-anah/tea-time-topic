@@ -53,7 +53,7 @@ button.submit {
     border-radius: 6px;
 }
 
-.container {
+.nextTopic {
     padding-block-start: 3rem;
 }
 
@@ -75,6 +75,11 @@ span {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.archiveSvg {
+    display: flex;
+    float: right;
 }
 
 li {
